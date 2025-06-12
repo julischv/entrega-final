@@ -1,0 +1,10 @@
+.logotipo { width: 25%;
+    margin-top: 0;
+    padding-top: 0;
+    padding-inline-start: 0;
+    border-style: ridge;
+    border-color:$color2;
+    &:hover{
+        transform: scale(2);
+    }
+    }

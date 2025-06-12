@@ -1,0 +1,76 @@
+.index1{
+    background-image:url(../asses/img/fondo\ verde\ plantas.jpg) ;
+    background-position: left top;
+    background-size:21.875rem ;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.yoga1{
+    width: 200%;
+    border-style: ridge;
+    border-color: $color1;
+    }
+.imagen1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 6.25em;
+    padding-top: 3.125em;}
+    .moving1 {
+    color: $color2;
+    text-shadow:  .1875rem .1875rem .25rem $color1;
+    font-family:$tipografia-titulos;
+    font-size: 4.6875rem;
+    text-align: center;
+    width: auto;
+    height: auto;
+    }
+    .moving2 {
+    color:$color2;
+    font-family: $tipografia-texto;
+    font-weight: 100%;
+    font-style: normal;
+    font-size: auto;
+    padding-left:  7.8125em;
+    padding-block: 3.125rem;
+    text-align: center;
+    width: 100%;
+    line-height: 3,5em;
+    }
+    .buton1{
+    background-color: #4D5D44;
+    color: #DCD7C2;
+    font-size: larger;
+    padding: .9375rem;
+    border-color: #DCD7C2;
+    border-style: solid;
+    box-shadow: #DCD7C2;
+    margin-left: 9.375em;
+    &:hover{
+        transform: scale(1.5);
+    }
+}
+.index2{
+    background-image:url(../asses/img/fondo\ verde\ plantas.jpg) ;
+    background-position: left top;
+    background-size: 21.875rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+img {
+padding-left: 37.5rem;}
+}
+.moving3 {
+    color: #4D5D44;
+    font-family: $tipografia-texto;
+    font-weight: 100%;
+    font-style: normal;
+    font-size: 1.5625em;
+    padding-left: 25em;
+    padding-top: 6.25em;
+    padding-bottom: .9375rem;
+    text-align: center;
+    width: auto;
+    height:auto;
+}

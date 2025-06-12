@@ -1,0 +1,22 @@
+.nabar{
+    display: flex;
+    gap: 1.5625rem;
+    list-style: none;
+    ul{ 
+        display: flex;
+        padding-left: 3.125rem;
+        padding-right: 1.25rem;
+        gap: 6.25rem;
+    justify-content: flex-end;
+    font-size: 1.875rem;
+    }
+    a {
+        text-decoration: none;
+        color: $color2;
+        font-family:$tipografia-titulos;
+        &:hover{
+            color: darkmagenta;
+            
+        }
+    }
+}
